@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+venv/
+env/
+ENV/
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Node.js (frontend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+.DS_Store
+dist/
+build/
+
+# Database
+*.sqlite3
+*.sqlite
+
+# Secrets
+*.pem
+*.key
+*.crt
+config.local.py
+secrets.json
+
+# OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
